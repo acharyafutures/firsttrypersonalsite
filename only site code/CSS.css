@@ -1,0 +1,153 @@
+.top{
+	background-image:url("aaaaa.png");
+	background-attachment: fixed;
+	background-size: 1400px 850px;
+	height: 700px;
+	background-repeat: none;
+}
+body{
+	margin:0px;
+}
+.main_name{
+	vertical-align: top;
+	margin-top: 200px;
+	display: inline-block;
+	margin-left: 20px;
+}
+.name{
+	font-size:3.2vw;
+	color:white;
+	font-family:"Times New Roman";
+
+}
+div.name a{
+		color:white;
+		text-decoration: none;
+}
+div.name a:hover{
+		color: blue;
+		text-decoration: none;
+	}
+.Theme{
+	font-size:1.6vw;
+	font-family:Arial;
+	color: #501010;
+	font-weight: bold;
+}
+.one_second{
+	background-color:#00ced1;
+	background-size:1400px 850px;
+	height:490px;
+	background-attachment: scroll;
+	background-repeat: none;
+}
+div.image{
+	opacity: 1;
+	margin-left: 5px;
+	border-radius: 50px;
+	display: inline-block;
+}
+div.image:hover{
+	opacity: 0.7;
+}
+.text{
+	width: calc(100% - 360px);
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 50px;
+}
+.heading{
+	font-family: "Arial";
+	font-size: 3vw;
+	text-decoration: underline;
+	color:#000000;
+	font-weight: bold;
+	margin-left: 35%;
+	margin-top:50px;
+}
+.about_ans{
+	font-family: "Times New Roman";
+	font-size: 20;
+	color:white;
+	margin-top:70px;
+	text-indent: 50px;
+	text-align: justify;
+}
+footer{
+	background-color:black;
+	color: white;
+	width: 100%;
+}
+.text_foot{
+	color:white;
+	margin-left: 900px;
+	vertical-align: top;
+	size: 2vw;
+	display: inline-block;
+}
+.icons{
+	color: white;
+	display: inline-block;
+	font-size: 30px;
+	margin-left: 10px;
+	vertical-align: middle;
+	letter-spacing: 15px;
+}
+header{
+	background-color:cyan;
+	color: black;
+	font-size: 30px;
+	position: sticky;
+	display: flex;
+	top: 0px;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	width: 100%;
+}
+header a{
+	text-decoration:none;
+	color:black;
+}
+header a:hover{
+	color:cyan;
+}
+.contact{
+	display: inline-block;
+}
+div.contact a{
+	text-decoration: none;
+	color:white;
+}
+div.contact a:hover{
+	color: blue;
+}
+.twitter{
+	display: inline-block;
+}
+div.twitter a{
+	text-decoration: none;
+	color:white;
+}
+div.twitter a:hover{
+	color: blue;
+}
+.insta{
+	display: inline-block;
+}
+div.insta a{
+	text-decoration: none;
+	color:white;
+}
+div.insta a:hover{
+	color: blue;
+}
+.fb{
+	display: inline-block;
+}
+div.fb a{
+	text-decoration: none;
+	color:white;
+}
+div.fb a:hover{ 
+	color: blue;
+}
